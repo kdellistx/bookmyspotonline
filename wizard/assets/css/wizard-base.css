@@ -1,0 +1,29 @@
+/*******************************************************
+ * BY: Randy S. Baker
+ * ON: 15-DEC-2018
+ * FILE: wizard-base.php
+ * NOTE:  Wizard base stylesheet
+ *******************************************************/
+
+/*************************
+ Import Styles
+ *************************/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700");
+@import url("../../../plugins/owl-carousel-2.0.0/dist/assets/owl.theme.default.css");
+@import url("../../../plugins/jquery-ui-1.12.1.custom/jquery-ui.min.css");
+@import url("../../../plugins/owl-carousel-2.0.0/dist/assets/owl.carousel.css");
+@import url("../../../css/font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("../../../plugins/bootstrap-4.1.3/css/bootstrap.min.css");
+@import url("../../../plugins/fancybox/jquery.fancybox.css");
+@import url("../../../plugins/summernote/summernote.css");
+@import url("../../../css/fontello/css/icon_set_1.css");
+@import url("../../../css/fontello/css/icon_set_2.css");
+@import url("../../../css/fontello/css/fontello.css");
+@import url("../../../css/hotel-datepicker.css");
+@import url("../../../css/magnific-popup.css");
+@import url("../../../css/animate.min.css");
+@import url("../../../datatables.css");
+@import url("../../../css/menu.css");
+@import url("../../../css/style-basic.css");
+@import url("../../../css/responsive.css");
+@import url("../../../css/custom.css");
