@@ -1,0 +1,29 @@
+/*******************************************************
+ * By: Randy S. Baker
+ * On: 03-APR-2018
+ * FILE: base.php
+ * NOTE: Base stylesheet
+ *******************************************************/
+
+/*************************
+ Import Styles
+ *************************/
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700");
+@import url("animate.min.css");
+@import url("bootstrap.min.css");
+@import url("font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("menu.css");
+@import url("style.css");
+@import url("responsive.css");
+@import url("fontello/css/icon_set_1.css");
+@import url("fontello/css/icon_set_2.css");
+@import url("fontello/css/fontello.css");
+@import url("magnific-popup.css");
+@import url("../plugins/jquery-ui-1.12.1.custom/jquery-ui.min.css");
+@import url("../plugins/owl-carousel-2.0.0/dist/assets/owl.carousel.css");
+@import url("../plugins/owl-carousel-2.0.0/dist/assets/owl.theme.default.css");
+@import url("../plugins/fancybox/jquery.fancybox.css");
+@import url("../plugins/summernote/summernote.css");
+@import url("hotel-datepicker.css");
+@import url("datatables.css");
+@import url("custom.css");

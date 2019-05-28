@@ -1,0 +1,1055 @@
+/*******************************************************
+ * BY: Randy S. Baker
+ * ON:; 03-APR-2018
+ * FILE: custom.css
+ * NOTE: Custom stylesheet
+ *******************************************************/
+
+/*************************
+ Custom Styles
+ *************************/ 
+.shadowed-text {
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.shadowed-box {
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.img-rounded {
+	border-radius: 10px;
+}
+
+.fa-left-5 {
+  padding-left: 5px;
+}
+
+.fa-right-5 {
+  padding-right: 5px;
+}
+
+.push-top-15 {
+  margin-top: 15px !important;
+}
+
+.push-top-25 {
+  margin-top: 25px !important;
+}
+
+.push-top-5
+5 {
+  margin-top: 55px !important;
+}
+
+.push-top-75 {
+  margin-top: 75px !important;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0px;
+  margin-bottom: 10px;
+}
+
+.map-responsive iframe {
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.map-form-control {
+  margin-left: -18px !important;
+  margin-top: 3px !important;
+}
+
+.auto-width {
+  width: auto;
+}
+
+#map {
+  height: 100%;
+  min-height: 600px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+
+#legend {
+  font-family: Arial, sans-serif;
+  background: #FFFFFF;
+  padding: 0px;
+  margin-top: 25px;
+  border-radius: 0px;
+  border: 1px solid #000000;
+}
+
+#legend h3 {
+  margin-top: 0px;
+}
+
+#legend img {
+  vertical-align: middle;
+  border-radius: 0px;
+}
+
+.map-sidebar-banner {
+  max-width: 200px !important;
+}
+
+.info-window {
+  color: #000000;
+}
+
+.info-window-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.info-window-link:hover {
+  text-decoration: underline;
+}
+
+.calendar-icon {
+  max-width: 68px;
+}
+
+.marketplace-map-container {
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+.jumbotron {
+  background: #FAFBFD;
+  padding-top: 5px !important;
+}
+
+.jumbotron h1 {
+  font-size: 25px;
+}
+
+.jumbotron p {
+  font-size: 15px;
+}
+
+.jumbotron .btn {
+  margin-bottom: 5px !important;
+}
+
+.medium-preview-thumbnail {
+  max-height: 200px;
+}
+
+.thin-padding {
+  padding: 5px !important;
+}
+
+.table-action-button {
+  font-size: 1.25em;
+  padding: 0px !important;
+}
+
+.medium-font {
+  font-size: 1.25em !important;
+}
+
+.black {
+    color: #000000 !important;
+}
+
+.orange {
+  color: #ED5434 !important;
+}
+
+.white {
+  color: #FFFFFF !important;
+}
+
+.red {
+  color: #FF0000 !important;
+}
+
+.yellow {
+  color: #FFFF00 !important;
+}
+
+.green {
+  color: #5cb85c !important;
+}
+
+.smokey-background {
+  background-color: rgba(0, 0, 0, .7) !important;
+}
+
+.divider-thin {
+  width: 100%;
+  height: 9px;
+  background: url('../img/divider.png') center top no-repeat;
+  margin: 45px 0px 10px 0px;
+}
+
+.view-on-main-map {
+  margin-top: 15px;
+  z-index: 800;
+}
+
+.blue-search-icon {
+  color: #0099CC;
+  font-weight: bold;
+}
+
+#btnResetAddProperty {
+  display: none;
+}
+
+.show-on-small {
+  display: none;
+}
+
+.hide-on-small {
+  display: block;
+}
+
+/*************************
+ Header Styles
+ *************************/ 
+.header-help-text {
+  background-color: rgba(0, 0, 0, .7);
+  margin-top: 150px;
+  margin-bottom: 5px;
+  padding: 5px 0px 5px 0px;
+  font-size: .7em !important;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 800px;
+}
+
+.header-help-text-body-wrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.header-help-text-body {
+  background-color: rgba(0, 0, 0, .7);
+  margin: 0px auto;
+  padding: 5px 0px 5px 0px;
+  font-size: 1em !important;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 800px;
+  color: #FFFFFF;
+}
+
+.header-help-text-body-campground {
+  background-color: rgba(0, 0, 0, .7);
+  margin: 0px auto;
+  padding: 5px 0px 5px 0px;
+  font-size: 1em !important;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 655px;
+  color: #FFFFFF;
+}
+
+#book_container {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.property-category-subheading {
+  color: #ED5434;
+  font-weight: 800;
+}
+
+.destination-h3 {
+  cursor: hand;
+  cursor: pointer;
+}
+
+.main_sub_title {
+  text-align: left;
+  margin: -20px 0px 5px 0px;
+  padding: 0px;
+  color: #ed5434;
+  text-transform: uppercase;
+}
+
+#check_avail_marketplace_map #marketplace_category {
+  width: auto;
+  margin-right: 5px;
+  clear: both;
+}
+
+.hidden-break {
+  display: none;
+}
+
+.hidden-spacer {
+  display: none;
+}
+
+.top-header-button-wrapper {
+  margin-top: 25px;
+}
+
+.top-header-button {
+  width: 100%;
+}
+
+.top-header-button .btn {
+  font-size: 20px !important;
+}
+
+.top-header-button-extra {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.top-header-button-extra .btn {
+  font-size: 14px !important;
+}
+
+.top-header-button-extra-home {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.top-header-button-extra-home .btn {
+  font-size: 20px !important;
+}
+
+input#property_name_search, input#campground_name_search {
+  font-size: 16px !important;
+  font-family: FontAwesome;
+  padding: 1px 1px 1px 5px !important;
+}
+
+/*************************
+ Parallax Styles (body)
+ *************************/
+.row-custom {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.home-body-parallax {
+  height: auto;
+  min-height: 100px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  background-image: url('../img/slides/golden_gate_bridge_002.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-body-campground-parallax {
+  height: auto;
+  min-height: 100px;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 10px;
+}
+
+.home-body-parallax form {
+  max-width: 825px;
+  margin: 0px auto;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 5px 0px 5px 0px;
+  font-size: 1em !important;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.home-body-campground-parallax form {
+  max-width: 655px;
+  margin: 0px auto;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 5px 0px 5px 0px;
+  font-size: 1em !important;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.form-action-wrapper-booking {
+  margin-top: 0px;
+  padding-bottom: 5px;
+  min-height: 35px;
+}
+
+#container_5_booking_body, #container_6_booking_body {
+  width: 100%;
+}
+
+.parallax-window-body {
+  min-height: 35px;
+  background: 0px 0px;
+  position: relative
+}
+
+.parallax-window-body #sub_content {
+}
+
+.parallax-window-body#booking, .parallax-window-body#home {
+  min-height: 10px;
+}
+
+.parallax-window-body#short {
+  height: 350px;
+  min-height: inherit
+}
+
+.parallax-content-body {
+  text-align: center;
+  height: 270px
+}
+
+#book_container_body {
+  background-color: rgba(0, 0, 0, .7);
+  text-align: left;
+  padding: 5px 15px 10px 10px;
+  position: relative;
+  margin-top: 10px;
+}
+
+/*************************
+ Data Table Styles
+ *************************/ 
+ #frmManageProperties {
+    margin-top: 10px;
+ }
+
+ .table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
+    padding: 2px;
+}
+ 
+ .account-data-table {
+    border: 1px solid #CCCCCC;
+    font-weight: normal;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.account-data-table th {
+    font-weight: bold;
+    background-color: #444444;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.account-data-table button {
+    margin: 1px;
+    padding: 3px 7px 3px 7px;
+}
+
+/*************************************************
+ + Login / Register / Reset Password Form Styles
+ *************************************************/
+.basic-login {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px 20px 10px 20px;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
+  -webkit-box-shadow: inset 0 1px #fff,0 0 4px #c8cfe6;
+  -moz-box-shadow: inset 0 1px #fff,0 0 4px #c8cfe6;
+  box-shadow: inset 0 1px #fff,0 0 4px #c8cfe6;
+  color: inset 0 1px #fff,0 0 4px #c8cfe6;
+}
+
+.basic-login form {
+  margin: 0px;
+}
+
+.basic-login label {
+  line-height: 30px;
+  font-size: 1.2em;
+}
+
+.basic-login input[type="checkbox"] {
+  margin-top: 4px;
+}
+
+.social-login p {
+  text-align: center;
+  font-size: 1.2em;
+  font-style: italic;
+  padding: 20px 0px;
+}
+
+.social-login .social-login-buttons {
+  text-align: center;
+}
+
+.social-login .social-login-buttons a {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  height: 35px;
+  line-height: 35px;
+  padding-right: 15px;
+  margin: 10px 5px;
+  color: #FFFFFF;
+  font-size: 1.1em;
+  text-align: left;
+  -webkit-border-radius: 3px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 3px;
+  -moz-background-clip: padding;
+  border-radius: 3px;
+  background-clip: padding-box;
+  -webkit-transition: opacity .2s linear;
+  -moz-transition: opacity .2s linear;
+  -o-transition: opacity .2s linear;
+  -ms-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.social-login .social-login-buttons a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.social-login .social-login-buttons a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  width: 24px;
+  height: 24px;
+  background-image: url('../img/social-login.png');
+  background-repeat: no-repeat;
+}
+
+.social-login .btn-facebook-login {
+  padding-left: 35px;
+  background-color: #6886bc;
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNjg4NmJjIiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NjZjYTkiIHN0b3Atb3BhY2l0eT0iMSIvPjwvbGluZWFyR3JhZGllbnQ+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz48L3N2Zz4=);
+  background-image: -moz-linear-gradient(top,#6886bc 0,#466ca9 100%);
+  background-image: -webkit-linear-gradient(top,#6886bc 0,#466ca9 100%);
+  background-image: -o-linear-gradient(top,#6886bc 0,#466ca9 100%);
+  background-image: linear-gradient(top,#6886bc 0,#466ca9 100%);
+}
+
+.social-login .btn-twitter-login {
+  padding-left: 45px;
+  background-color: #25b6e6;
+}
+
+.social-login .btn-facebook-login:before {
+  left: 10px;
+  background-position: 0px 0px;
+}
+
+.social-login .btn-twitter-login:before {
+  left: 15px;
+  background-position: -48px 0px;
+}
+
+.social-login .not-member p {
+  font-size: 1.5em;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 30px;
+  border-top: 1px solid #CCC;
+}
+
+.trip-planner-form-container {
+   margin: 0px auto;
+   margin-bottom: 25px;
+}
+
+/*************************
+ Pricing Styles
+ *************************/ 
+.panel-pricing {
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+
+.panel-pricing:hover {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.panel-pricing .panel-heading {
+  padding: 20px 10px;
+}
+
+.panel-pricing .panel-heading .fa {
+  margin-top: 10px;
+  font-size: 58px;
+}
+
+.panel-pricing .list-group-item {
+  color: #777777;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+.panel-pricing .list-group-item:last-child {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.panel-pricing .list-group-item:first-child {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.panel-pricing .panel-body {
+  background-color: #F0F0F0;
+  font-size: 30px;
+  color: #777777;
+  padding: 10px;
+  margin: 0px;
+}
+
+.panel-pricing .panel-body p {
+  margin: 0px !important;
+}
+
+/*************************
+ Autocomplete Styles
+ *************************/ 
+#autocomplete-list {
+  float: left;
+  list-style: none;
+  margin: -3px 0px 10px 0px;
+  padding: 0px;
+  width: 225px;
+  position: absolute;
+  border: 1px dotted red;
+  background-color: #FFFFFF;
+  z-index: 999;
+}
+
+#autocomplete-list li {
+  padding: 5px;
+  background: #FEFEFE;
+  border-bottom: #BBB9B9 1px solid;
+  z-index: 999;
+}
+
+#autocomplete-list li:hover {
+  background: #ECE3D2;
+  cursor: pointer;
+}
+
+#autocomplete-box {
+  padding: 10px;
+  border: #A8D4B1 1px solid;
+  border-radius: 4px;
+}
+
+/*************************
+ Custom button styles
+ *************************/ 
+ #btnClaimProperty {
+  display: none;
+ }
+
+/*************************
+ Carousel Styles
+ *************************/ 
+.carousel-inner {
+  border-radius: 15px;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  padding: 0px 0px 10px 25px;
+  color: #FFFFFF !important;
+  text-align: left;
+}
+
+.carousel-caption h2 {
+  color: #FFFFFF;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 15;
+  margin: 0px;
+  padding: 0px 25px 25px 0px;
+  text-align: right;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.carousel-control.left > i {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control.right > i {
+  position: absolute;
+  left: auto;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/*************************
+ jQuery UI Styles
+ *************************/ 
+.ui-autocomplete-loading {
+  background: #FFFFFF url('../img/ui-anim_basic_16x16.gif') right center no-repeat;
+}
+
+/*************************
+ Responsive Styles
+ *************************/
+@media (max-width: 576px) {
+  h1.main_title em {
+    display: none;
+  }
+
+  .home-body-campground-parallax {
+    max-width: 370px;
+    margin-top: 60px;
+  }
+
+  .home-body-parallax form {
+  }
+
+  .home-body-campground-parallax form {
+    max-width: 370px;
+  }
+
+  .header-help-text {
+    background-color: rgba(0, 0, 0, .7);
+    margin-top: 35px;
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 0px;
+    font-size: .7em !important;
+    font-weight: 500;
+    border-radius: 5px;
+    width: auto;
+  }
+
+  .header-help-text-body {
+    max-width: 340px;
+  }
+
+  .header-help-text-body-campground {
+    max-width: 330px;
+  }
+
+  #book_container {
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .main_sub_title {
+    text-align: center;
+    margin: -10px 0px 5px 0px;
+  }
+
+  #check_avail_marketplace_map #marketplace_category {
+    max-width: 70%;
+    float: left;
+    margin-right: 5px;
+    clear: both;
+  }
+
+  .hidden-break {
+    display: block;
+  }
+
+  .hidden-spacer {
+    display: block;
+  }
+
+  .top-header-button-wrapper {
+    margin-top: -15px;
+  }
+
+  .top-header-button {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 110%;
+    text-align: center;
+  }
+
+  .top-header-button .btn {
+    padding-top: 15px;
+    font-size: 13px !important;
+    line-height: 70% !important;
+  }
+
+  .top-header-button-extra {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .top-header-button-extra .btn {
+    font-size: 13px !important;
+    line-height: 100% !important;
+  }
+
+  .top-header-button-extra-home {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .top-header-button-extra-home .btn {
+    padding-top: 10px;
+    font-size: 13px !important;
+    line-height: 70% !important;
+  }
+
+  .show-on-small {
+    display: block;
+  }
+
+  .hide-on-small {
+    display: none;
+  }
+
+  #subheader_home {
+    height: 583px;
+  }
+
+  .parallax-window#booking-header {
+    min-height: 1000px;
+  }
+
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 400px !important;
+    margin-bottom: 10px;
+  }
+
+  .map-responsive iframe {
+      left: 0px;
+      top: 0px;
+      height: 400px !important;
+      width: 100%;
+      position: absolute;
+  }
+
+  #legend {
+    display: none;
+  }
+}
+
+/*************************
+ Responsive Styles
+ *************************/
+@media (min-width: 576px) and (max-width: 735px) {
+  .header-help-text {
+    background-color: rgba(0, 0, 0, .7);
+    margin-top: 150px;
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 0px;
+    font-size: .7em !important;
+    font-weight: 500;
+    border-radius: 5px;
+    width: auto;
+  }
+
+  #book_container {
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  #lang_top {
+    display: none;
+  }
+
+  .main_sub_title {
+    text-align: center;
+    margin: -10px 0px 5px 0px;
+  }
+
+  #check_avail_marketplace_map #marketplace_category {
+    max-width: 70%;
+    float: left;
+    margin-right: 5px;
+    clear: both;
+  }
+
+  .hidden-break {
+    display: none;
+  }
+
+  .hidden-spacer {
+    display: none;
+  }
+
+  .top-header-button {
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  .top-header-button .btn {
+    font-size: 13px !important;
+    line-height: 100% !important;
+  }
+
+  .top-header-button-extra-home {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .top-header-button-extra-home .btn {
+    font-size: 13px !important;
+    line-height: 110%;
+  }
+
+  .top-header-button-extra {
+    width: 100%;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .top-header-button-extra .btn {
+    font-size: 13px !important;
+    line-height: 110%;
+  }
+  
+  .show-on-small {
+    display: block;
+  }
+
+  .hide-on-small {
+    display: none;
+  }
+
+  .parallax-window#booking {
+    min-height: 660px;
+  }
+}
+
+/*************************
+ Responsive Styles
+ *************************/
+@media (min-width: 736px) and (max-width: 1268px) {
+  .header-help-text {
+    background-color: rgba(0, 0, 0, .7);
+    margin-top: 150px;
+    margin-bottom: 5px;
+    padding: 5px 0px 5px 0px;
+    font-size: .7em !important;
+    font-weight: 500;
+    border-radius: 5px;
+    width: auto;
+  }
+
+  #book_container {
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  #lang_top {
+    display: none;
+  }
+
+  .main_sub_title {
+    text-align: center;
+    margin: -10px 0px 5px 0px;
+  }
+
+  #check_avail_marketplace_map #marketplace_category {
+    max-width: 70%;
+    float: left;
+    margin-right: 5px;
+    clear: both;
+  }
+
+  .hidden-break {
+    display: none;
+  }
+
+  .hidden-spacer {
+    display: none;
+  }
+
+  .top-header-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .top-header-button .btn {
+    font-size: 13px !important;
+    line-height: 100% !important;
+  }
+
+  .top-header-button-extra-home {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .top-header-button-extra-home .btn {
+    font-size: 13px !important;
+    line-height: 110%;
+  }
+
+  .top-header-button-extra {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .top-header-button-extra .btn {
+    font-size: 13px !important;
+    line-height: 110%;
+  }
+  
+  .show-on-small {
+    display: block;
+  }
+
+  .hide-on-small {
+  }
+}
