@@ -1,0 +1,69 @@
+##########################################################
+################### ENABLE CORS ##########################
+##########################################################
+<IfModule mod_headers.c>
+  <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css)$">
+    Header set Access-Control-Allow-Origin "*"
+  </FilesMatch>
+</IfModule>
+
+##########################################################
+################ ENABLE MOD_REWRITE ######################
+##########################################################
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^(include|data|admin|css) - [L]
+
+##########################################################
+################ MOD_REWRITE RULES #######################
+##########################################################
+RewriteRule ^about(/)?$ /about.php [NS,L]
+RewriteRule ^add-advertisement(/)?$ /add_advertisement.php [NS,L]
+RewriteRule ^add-event(/)?$ /add_event.php [NS,L]
+RewriteRule ^add-joke-trivia(/)?$ /add_joke.php [NS,L]
+RewriteRule ^add-marketplace-item(/)?$ /add_marketplace_item.php [NS,L]
+RewriteRule ^add-property(/)?$ /add_property.php [NS,L]
+RewriteRule ^advertising(/)?$ /index.php [QSA,NS,L]
+RewriteRule ^checkout-handoff(/)?$ /checkout_handoff.php [QSA,NS,L]
+RewriteRule ^confirm-booking/(.*)/(.*)/$ /confirm_booking.php?booking_id=$1 [QSA,NS,L]
+RewriteRule ^contact(/)?$ /contact.php [NS,L]
+RewriteRule ^reservation-destinations(/)?$ /reservation_destinations.php [QSA,NS,L]
+RewriteRule ^destinations(/)?$ /destinations.php [QSA,NS,L]
+RewriteRule ^property-details/(.*)/(.*)/$ /reservation_property_details.php?property_id=$1 [QSA,NS,L]
+RewriteRule ^details/(.*)/(.*)/$ /property_details.php?property_id=$1 [QSA,NS,L]
+RewriteRule ^download-mailer-data(/)?$ /download_mailer_data.php [NS,L]
+RewriteRule ^download-registration-data(/)?$ /download_registration_data.php [NS,L]
+RewriteRule ^download-subscriber-data(/)?$ /download_subscriber_data.php [NS,L]
+RewriteRule ^edit-account(/)?$ /edit_account.php [NS,L]
+RewriteRule ^edit-advertisement/(.*)/(.*)/$ /edit_advertisement.php?advertisement_id=$1 [QSA,NS,L]
+RewriteRule ^edit-event/(.*)/(.*)/$ /edit_event.php?event_id=$1 [QSA,NS,L]
+RewriteRule ^edit-joke-trivia/(.*)/(.*)/$ /edit_joke.php?joke_id=$1 [QSA,NS,L]
+RewriteRule ^edit-marketplace-item/(.*)/(.*)/$ /edit_marketplace_item.php?marketplace_item_id=$1 [QSA,NS,L]
+RewriteRule ^edit-property/(.*)/(.*)/$ /edit_property.php?property_id=$1 [QSA,NS,L]
+RewriteRule ^events(/)?$ /events.php [NS,L]
+RewriteRule ^faq(/)?$ /faq.php [NS,L]
+RewriteRule ^for-sale(/)?$ /for_sale_list.php [QSA,NS,L]
+RewriteRule ^forgot-password(/)?$ /forgot_password.php [NS,L]
+RewriteRule ^login(/)?$ /login.php [NS,L]
+RewriteRule ^logoff(/)?$ /user_logoff.php [NS,L]
+RewriteRule ^manage-advertisements(/)?$ /master_advertisements.php [NS,L]
+RewriteRule ^manage-for-sale-items(/)?$ /master_marketplace_items.php [NS,L]
+RewriteRule ^manage-jokes-and-trivia(/)?$ /master_jokes.php [NS,L]
+RewriteRule ^marketplace-item-details/(.*)/(.*)/$ /marketplace_item_details.php?marketplace_item_id=$1 [QSA,NS,L]
+RewriteRule ^marketplace-map(/)?$ /marketplace_map.php [QSA,NS,L]
+RewriteRule ^master(/)?$ /master.php [NS,L]
+RewriteRule ^my-account(/)?$ /my_account.php [NS,L]
+RewriteRule ^pricing(/)?$ /pricing.php [NS,L]
+RewriteRule ^privacy(/)?$ /privacy.php [QSA,NS,L]
+RewriteRule ^purchase-confirmation(/)?$ /purchase_confirmation.php [QSA,NS,L]
+RewriteRule ^purchase-subscription/(.*)/(.*)/$ /purchase_subscription.php?property_hash=$1&subscription_id=$2 [QSA,NS,L]
+RewriteRule ^register(/)?$ /register.php [NS,L]
+RewriteRule ^terms-of-service(/)?$ /tos.php [NS,L]
+RewriteRule ^trip-planner(/)?$ /trip_planner.php [QSA,NS,L]
+RewriteRule ^view-advertisement/(.*)/(.*)/$ /view_advertisement.php?advertisement_id=$1 [QSA,NS,L]
+RewriteRule ^view-all-properties(/)?$ /map_all_properties.php [QSA,NS,L]
+RewriteRule ^view-event/(.*)/(.*)/$ /view_event.php?event_id=$1 [QSA,NS,L]
+RewriteRule ^view-joke-trivia/(.*)/(.*)/$ /view_joke.php?joke_id=$1 [QSA,NS,L]
+RewriteRule ^view-marketplace-item/(.*)/(.*)/$ /view_marketplace_item.php?marketplace_item_id=$1 [QSA,NS,L]
+RewriteRule ^view-property/(.*)/(.*)/$ /view_property.php?property_id=$1 [QSA,NS,L]

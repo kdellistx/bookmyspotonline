@@ -1,0 +1,1 @@
+[26-Feb-2019 14:19:28 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1130): Host 'ip-23-229-231-41.ip.secureserver.net' is not allowed to connect to this MySQL server in /home/pv8i9xj112of/public_html/includes/functions.helper.php on line 34
